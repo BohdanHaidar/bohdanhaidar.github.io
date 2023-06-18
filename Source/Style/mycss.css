@@ -3,9 +3,14 @@ body {
   font-family: Pacifico, serif;
   background: linear-gradient(90deg, #4abbc2 0%, #0b83ac 22%, #d11ddb 100%);
 }
+
 .card {
   box-shadow: 8px 8px 8px 5px #08459a;
   margin-top: 1.5em;
+  border-radius: 2em;
+}
+.card:hover {
+  background-color: rgb(174, 174, 174);
 }
 .nav-link {
   color: aquamarine;
@@ -21,6 +26,7 @@ body {
 .navbar-brand img {
   width: 45px;
 }
+
 .navbar-toggler {
   background-color: rgb(157, 157, 157);
 }
@@ -34,13 +40,16 @@ body {
   width: 100%;
   height: 20em;
   object-fit: cover;
+  border-radius: 2em;
 }
 .btn.btn-primary {
   width: 150px;
+  border-radius: 2em;
 }
 .sidebar {
   color: #141c1d;
-  background: linear-gradient(90deg, #6d0b7c 0%, #b225ba 100%);
+  font-size: 17px;
+  background: linear-gradient(90deg, #52af57fe 0%, #75d7b0 100%);
 }
 .card a {
   text-decoration: none;
@@ -52,13 +61,13 @@ body {
   align-items: center;
   margin-top: 2em;
 }
-.w-100 {
-}
+
 .slide-text {
   margin: auto auto;
   padding-inline: 7em;
 }
-.telep {
+.telep,
+.text-unddd {
   animation: myAnim 3s ease 0s infinite normal forwards;
 }
 @keyframes myAnim {
@@ -99,5 +108,14 @@ body {
   border-color: black;
 }
 .btn.btn-outline-primary:hover {
-  background-color: #6d0b7c;
+  background: linear-gradient(90deg, #8ef1f2 0%, #063c5b 100%);
+  box-shadow: 10px 10px 15px 1px #000;
+  transform: scale(1.2);
+}
+.btn.btn-outline-primary:active {
+  background: linear-gradient(90deg, #56a9aa 0%, #042436 100%);
+}
+
+.btn.btn-primary.succed-btn {
+  background-color: green;
 }
